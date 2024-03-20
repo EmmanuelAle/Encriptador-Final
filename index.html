@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <img src="Logo.png" class="Logo" alt="logo de alura">
+    </header>
+
+    <main>  
+        <section>
+            <textarea cols="50" rows="2"  class="text-area" required placeholder="Ingresa el texto que deseas aquí"></textarea>
+        
+            <div>
+                <h6 for="texto-primario" class="texto-final"> &#9432; Solo letras minúsculas y sin acentos</h6>
+            </div>
+
+            <div class="final">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">desencriptar</button>
+            </div>
+        </section>
+            
+        <section class="Muñeco">
+            <img src="Muñeco.png" class="imagen-muñeco">
+            <textarea class="mensaje" id="mensaje-contenido" cols="20" rows="5" placeholder="no hay ningún mensaje"></textarea>
+            <button class="copiar" 
+            id="bt-copiar"
+            onclick="copiarAlPortapapeles();">Copiar</button>
+        </section>
+
+       
+    </main>
+    <script src="app.js"></script>
+</body> 
+</html>
