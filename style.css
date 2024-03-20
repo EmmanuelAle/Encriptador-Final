@@ -72,7 +72,7 @@ main {
 }
 
 .copiar:hover{
-    background: aqua;
+    background: rgb(125, 173, 36);
     transform: scale(1.2) rotate(720deg)
 }
 
@@ -112,7 +112,7 @@ main {
 }
 
 .btn-encriptar:hover{
-    background: aqua;
+    background: rgb(125, 173, 36);
     transform: scale(1.2) rotate(720deg)
 }
 
@@ -129,7 +129,7 @@ main {
 }
 
 .btn-desencriptar:hover{
-    background: aqua;
+    background: rgb(125, 173, 36);
     transform: scale(1.2) rotate(720deg)
 }
 
